@@ -6,20 +6,6 @@ const Footer = () => (
         alt="Company Logo"
         className="h-10 mx-auto mb-4"
       />
-      <nav className="flex justify-center space-x-4">
-        <a href="#" className="text-[var(--foreground)]">
-          Home
-        </a>
-        <a href="#" className="text-[var(--foreground)]">
-          Features
-        </a>
-        <a href="#" className="text-[var(--foreground)]">
-          Pricing
-        </a>
-        <a href="#" className="text-[var(--foreground)]">
-          Contact
-        </a>
-      </nav>
       <p className="mt-4">&copy; 2023 Kabonyo Agencies. All rights reserved.</p>
     </div>
   </footer>
