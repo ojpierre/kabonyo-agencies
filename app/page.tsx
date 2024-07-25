@@ -1,4 +1,6 @@
 import Layout from "../components/Layout";
+import ContactSection from "../components/contactSection";
+
 
 const Home = () => (
   <Layout>
@@ -76,6 +78,7 @@ const Home = () => (
         <p className="mb-8">
           We are experienced professionals providing reliable and personalized
           accounting solutions.
+          We are members of ICPAK, degree holders, and have been in business for over 10 years. 
         </p>
         <img
           src="/assets/images/experienced.webp"
@@ -123,15 +126,15 @@ const Home = () => (
         </div>
       </div>
     </section>
-
-    <section className="py-16 bg-[var(--primary)] text-[var(--primary-foreground)]">
+        <ContactSection />
+    {/*<section className="py-16 bg-[var(--primary)] text-[var(--primary-foreground)]">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
         <p className="mb-8">
           Contact us today to learn more about our services and how we can help
           you.
         </p>
-        {/* TODO: Add contact form <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+         TODO: Add contact form <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
           <input
             type="text"
             placeholder="Your Name"
@@ -145,9 +148,9 @@ const Home = () => (
           <button className="bg-[var(--secondary)] text-[var(--secondary-foreground)] p-2 rounded-md">
             Submit
           </button>
-        </div>*/}
+        </div>
       </div>
-    </section>
+    </section>*/}
   </Layout>
 );
 
