@@ -1,0 +1,17 @@
+import Layout from '../components/Layout';
+
+const Contact = () => (
+  <Layout>
+    <section className="text-center py-16 bg-[var(--primary)] text-[var(--primary-foreground)]">
+      <h1 className="text-4xl font-bold">Contact Us</h1>
+      <p className="mt-4">Get in touch with us for more information.</p>
+      <div className="mt-8 flex justify-center space-x-4">
+        <input type="text" placeholder="Your Name" className="p-2 border-[var(--border)] rounded-md" />
+        <input type="email" placeholder="Your Email" className="p-2 border-[var(--border)] rounded-md" />
+        <button className="bg-[var(--secondary)] text-[var(--secondary-foreground)] p-2 rounded-md">Submit</button>
+      </div>
+    </section>
+  </Layout>
+);
+
+export default Contact;
