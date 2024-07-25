@@ -1,32 +1,36 @@
 import Link from "next/link";
 
 const Header = () => (
-  <header className="flex justify-between items-center p-4 bg-[var(--card-rgb)]">
+  <header className="flex justify-between items-center p-4 bg-[var(--card-rgb)] shadow-md">
     <img
-      src="/assets/images/placeholder.png"
+      src="/assets/images/kabonyoagencieslogo.png"
       alt="Company Logo"
-      className="h-10"
+      className="h-12 md:h-14" // Adjust height for responsiveness
     />
-    <nav className="flex space-x-4">
-      <Link href="/">
-        <button className="text-[var(--foreground-rgb)] hover:text-[var(--primary-rgb)]">
-          Home
-        </button>
+    <nav className="flex space-x-4 md:space-x-6">
+      <Link
+        href="/"
+        className="text-[var(--foreground-rgb)] bg-[var(--primary-rgb)] hover:bg-[var(--primary-dark)] px-4 py-2 transition-all duration-300 ease-in-out shadow-md"
+      >
+        Home
       </Link>
-      <Link href="/features">
-        <button className="text-[var(--foreground-rgb)] hover:text-[var(--primary-rgb)]">
-          Features
-        </button>
+      <Link
+        href="/features"
+        className="text-[var(--foreground-rgb)] bg-[var(--primary-rgb)] hover:bg-[var(--primary-dark)] px-4 py-2 transition-all duration-300 ease-in-out shadow-md"
+      >
+        Features
       </Link>
-      <Link href="/pricing">
-        <button className="text-[var(--foreground-rgb)] hover:text-[var(--primary-rgb)]">
-          Pricing
-        </button>
+      <Link
+        href="/pricing"
+        className="text-[var(--foreground-rgb)] bg-[var(--primary-rgb)] hover:bg-[var(--primary-dark)] px-4 py-2 transition-all duration-300 ease-in-out shadow-md"
+      >
+        Pricing
       </Link>
-      <Link href="/contact">
-        <button className="text-[var(--foreground-rgb)] hover:text-[var(--primary-rgb)]">
-          Contact
-        </button>
+      <Link
+        href="/contact"
+        className="text-[var(--foreground-rgb)] bg-[var(--primary-rgb)] hover:bg-[var(--primary-dark)] px-4 py-2 transition-all duration-300 ease-in-out shadow-md"
+      >
+        Contact
       </Link>
     </nav>
   </header>

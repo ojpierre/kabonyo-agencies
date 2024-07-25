@@ -26,7 +26,7 @@ const Home = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="flex flex-col items-center p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/taxreturns.webp"
               alt="Tax Returns"
               className="h-24 w-24 mb-4"
             />
@@ -37,7 +37,7 @@ const Home = () => (
           </div>
           <div className="flex flex-col items-center p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/bookkeeping.webp"
               alt="Bookkeeping"
               className="h-24 w-24 mb-4"
             />
@@ -46,7 +46,7 @@ const Home = () => (
           </div>
           <div className="flex flex-col items-center p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/financialadvice.webp"
               alt="Financial Advice"
               className="h-24 w-24 mb-4"
             />
@@ -57,7 +57,7 @@ const Home = () => (
           </div>
           <div className="flex flex-col items-center p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/payroll.webp"
               alt="Payroll Services"
               className="h-24 w-24 mb-4"
             />
