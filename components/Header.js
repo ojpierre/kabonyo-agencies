@@ -1,11 +1,15 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => (
   <header className="flex align-middle justify-between items-center p-4 bg-[var(--card-rgb)] shadow-md">
-    <img
+    <Image
+      width={230} // Provide the width
+      height={48}
       src="/assets/images/kabonyoagencieslogo.png"
       alt="Company Logo"
-      className="h-12 md:h-14" // Adjust height for responsiveness
+      // Provide the height
+      className="h-12 md:h-14 w-64" // Adjust height for responsiveness
     />
     {/*<nav className="flex space-x-4 md:space-x-6">
       <Link
