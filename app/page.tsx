@@ -74,13 +74,13 @@ const Home = () => (
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">Why Choose Us?</h2>
         <p className="mb-8">
-          Experienced professionals providing reliable and personalized
+          We are experienced professionals providing reliable and personalized
           accounting solutions.
         </p>
         <img
-          src="/assets/images/placeholder.png"
+          src="/assets/images/experienced.webp"
           alt="Why Choose Us"
-          className="mx-auto"
+          className="mx-auto h-96 w-96"
         />
       </div>
     </section>
@@ -93,7 +93,7 @@ const Home = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/customer1.webp"
               alt="Customer 1"
               className="mx-auto h-24 w-24 rounded-full mb-4"
             />
@@ -102,7 +102,7 @@ const Home = () => (
           </div>
           <div className="p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/customer2.webp"
               alt="Customer 2"
               className="mx-auto h-24 w-24 rounded-full mb-4"
             />
@@ -113,7 +113,7 @@ const Home = () => (
           </div>
           <div className="p-4 bg-[var(--card)] rounded-md shadow-lg">
             <img
-              src="/assets/images/placeholder.png"
+              src="/assets/images/customer3.webp"
               alt="Customer 3"
               className="mx-auto h-24 w-24 rounded-full mb-4"
             />
@@ -131,21 +131,21 @@ const Home = () => (
           Contact us today to learn more about our services and how we can help
           you.
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+        {/* TODO: Add contact form <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
           <input
             type="text"
             placeholder="Your Name"
-            className="p-2 border-[var(--border)] rounded-md"
+            className="p-2 border border-[var(--border)] rounded-md"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="p-2 border-[var(--border)] rounded-md"
+            className="p-2 border border-[var(--border)] rounded-md"
           />
           <button className="bg-[var(--secondary)] text-[var(--secondary-foreground)] p-2 rounded-md">
             Submit
           </button>
-        </div>
+        </div>*/}
       </div>
     </section>
   </Layout>
