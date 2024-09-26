@@ -24,14 +24,14 @@ const ContactSection = () => (
             icon={faPhoneSquare}
             className="w-6 text-sm md:text-xl text-[var(--secondary)]"
           />
-          <span className="text-sm md:text-base">+254716429244</span>
+          <span className="text-sm md:text-base">+254799538923</span>
         </div>
         <div className="flex items-center space-x-3">
           <FontAwesomeIcon
             icon={faSquareWhatsapp}
             className="w-6 text-sm md:text-xl text-[var(--secondary)]"
           />
-          <span className="text-sm md:text-base">+254716429244</span>
+          <span className="text-sm md:text-base">+254799538923</span>
         </div>
         <div className="flex items-center space-x-3">
           <FontAwesomeIcon
